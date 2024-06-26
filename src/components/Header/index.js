@@ -6,7 +6,7 @@ const HeaderComponents = styled.header `
 height: 100px;
 padding: 0 0 10px;
 text-decoration: none;
-background-color: #DCDCDC;
+background-image: linear-gradient(90deg, #DCDCDC, #D8D8D8);
 display: flex;
 justify-content: space-between;`
 

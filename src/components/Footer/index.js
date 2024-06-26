@@ -8,7 +8,7 @@ height: 80px;
 width: 100%;
 padding-bottom: 0;
 margin: 0;
-background-color: #DCDCDC;
+background-image: linear-gradient(90deg, #DCDCDC, #D8D8D8);
 display: flex;
 justify-content:center;
 flex- direction: row;

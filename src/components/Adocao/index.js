@@ -5,7 +5,7 @@ import Pipoca from '../../imagens/Pipoca.jpg'
 import Orelha from '../../imagens/Orelha.jpg'
 
 const GeneralBox = styled.div`
-background-color: #DCDCDC;
+background-image: linear-gradient(90deg, #DCDCDC, #D8D8D8);
 align-items: center;
 border-radius: 10px;
 border-color: 000;
@@ -17,6 +17,7 @@ padding: 25px 20px;
 justify-content: space-around;
 width: 100%; 
 height: 200px; 
+box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
 `
 const BoxImage = styled.img`
 width: 150px;
@@ -86,8 +87,8 @@ function Adocao(){
             <BoxImage src={jurubeba} alt='Foto de Canil Abandonado'/>
             <BoxText>
             <BoxTitle><strong>Jurubeba</strong></BoxTitle>
-            <Idade>Idade: Aproximadamente 3 meses</Idade>
-            <BoxDescription> Foi resgatado desnutrido e com vários parasitas no corpo. Mas agora está bem!</BoxDescription>
+            <Idade>Idade: Aproximadamente 8 meses</Idade>
+            <BoxDescription> Foi resgatado depois de ser atropelado na BR-153. Mas agora está bem.</BoxDescription>
             </BoxText>
             </GeneralBox>
         </div>
@@ -96,8 +97,8 @@ function Adocao(){
             <BoxImage src={Rex} alt='Foto de Canil Abandonado'/>
             <BoxText>
             <BoxTitle><strong>Rex</strong></BoxTitle>
-            <Idade>Idade: Aproximadamente 3 meses</Idade>
-            <BoxDescription> Foi resgatado desnutrido e com vários parasitas no corpo. Mas agora está bem!</BoxDescription>
+            <Idade>Idade: Aproximadamente 2 anos</Idade>
+            <BoxDescription> Foi resgatado depois de ser maltratado pelos antigos donos. Mas agora está bem!</BoxDescription>
             </BoxText>
             </GeneralBox>
         </div>
@@ -106,8 +107,8 @@ function Adocao(){
             <BoxImage src={Orelha} alt='Foto de Canil Abandonado'/>
             <BoxText>
             <BoxTitle><strong>Orelha</strong></BoxTitle>
-            <Idade>Idade: Aproximadamente 3 meses</Idade>
-            <BoxDescription> Foi resgatado desnutrido e com vários parasitas no corpo. Mas agora está bem!</BoxDescription>
+            <Idade>Idade: Aproximadamente 3 anos</Idade>
+            <BoxDescription> Foi resgatado em um canil de reprodução. Mas agora está bem!</BoxDescription>
             </BoxText>
             </GeneralBox>
         </div>

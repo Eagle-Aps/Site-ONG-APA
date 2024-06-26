@@ -2,7 +2,7 @@ import styled from "styled-components";
 import canil from '../../imagens/Canil.jpeg'
 
 const GeneralBox = styled.div`
-background-color: #DCDCDC;
+background-image: linear-gradient(90deg, #DCDCDC, #D8D8D8);
 align-items: center;
 border-radius: 10px;
 display: flex;

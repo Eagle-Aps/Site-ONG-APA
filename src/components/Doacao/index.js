@@ -9,7 +9,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 40px;
-  background-color: #DCDCDC;
+  background-image: linear-gradient(90deg, #DCDCDC, #D8D8D8);
   margin: 50px;
   border-radius: 20px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
